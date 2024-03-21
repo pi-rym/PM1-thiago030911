@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/reset.css">
 </head>
 <body>
-    <h1>Proyecto M1</h1>
-</body>
+    <header>
+        <h1 id="Titulo">Proyecto M1</h1>
+    </header>
+    
+    <main>
+        <section class="boxSub">
+            <H2 class="Subtitulo">¿Sobre mi?</H2>
+                <p>Buenas me llamo Thiago y tengo 20 años, actualmente estoy estudiando en la 
+                UTN de la carrera informatica aplicada cursando segundo y tercer año, elegi 
+                esta carrera por la recomendacion de un amigo y me parecio una buena idea inscribirme
+                para aumentar mis conocimientos y buscar una rapida salida laboral.
+                </p>
+        </section>
+
+        <div class="boxSub">
+            <h2 class="Subtitulo">Mis tecnologias favoritas</h2>
+
+                <section class="box">
+
+                    <div class="boxImagen">
+                        <h3 class="Subtitulo">CSS</h3>
+                        <img src="img/imagenCSS.jpg" alt="" class="tamañoImg">
+                    </div>
+
+                    <div class="boxImagen">
+                        <h3 class="Subtitulo">JavaScript</h3>
+                        <img src="img/imagenJavaScript.jpg" alt="" class="tamañoImg">
+                    </div>
+
+                    <div class="boxImagen">
+                        <h3 class="Subtitulo">HTML</h3>
+                        <img src="img/imagenHTML.jpg" alt="" class="tamañoImg">
+                    </div> 
+
+                </section>
+
+                <section class="box">
+            
+                    <div class="boxImagen">
+                        <h3 class="Subtitulo">SQL</h3>
+                        <img src="img/imagenSQL.jpg" alt="" class="tamañoImg">
+                    </div>
+
+                    <div class="boxImagen">
+                        <h3 class="Subtitulo">Excel</h3>
+                        <img src="img/excelImg.jpg" alt="" class="tamañoImg">
+                    </div>
+
+                    <div class="boxImagen">
+                        <h3 class="Subtitulo">C/C++</h3>
+                        <img src="img/imagenCyC++.jpg" alt="" class="tamañoImg">
+                    </div>
+                </section>
+
+            </div>
+
+            <section>
+                <h2>Mis actividades favoritos</h2>
+                <form action="" >
+                        <input type="text" placeholder="Nombre de actividad" class="boxCom" id="tituloInput">
+
+                        <input type="text" placeholder="Descripcion de actividad" class="boxCom" id="descripInput">
+                
+                        <input type="url" placeholder="Link de imagen" class="boxCom" id="urlInput">
+                    
+                        <button type="submit" id="button1">Agregar Actividad</button>
+                </form>
+
+                <div class="box" id="div">
+
+                </div>
+
+            </section>
+        </main>
+        <script src="./scripts/index.js"></script>
+    </body>
 </html>
